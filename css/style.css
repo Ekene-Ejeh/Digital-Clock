@@ -1,0 +1,27 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	background: rgb(13, 4, 133);
+}
+
+h2 {
+	color: red;
+}
+
+#clock-container h2 {
+	margin-bottom: 20px;
+}
+
+#clock {
+	font-family: "Orbitron", sans-serif;
+	font-size: 20px;
+	color: #fff;
+}
